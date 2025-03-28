@@ -8,14 +8,13 @@ The **RFID Web-Based Hostel Gate Pass System** is designed to automate and secur
 - **Web dashboard** for real-time monitoring and managing gate passes.
 - **Automated logging** of entry and exit with timestamps.
 - **Admin panel** for student record management.
-- **Database integration** (MySQL/MongoDB) for storing pass details.
-- **Email/SMS notifications** (optional) for security alerts.
+- **Database integration** (MySQL) for storing pass details.
 
 ## 🛠️ Tech Stack
-- **Hardware:** ESP32, RFID RC522, Servo Motor (for gate control)
+- **Hardware:** ESP32, RFID RC522, LED, (for gate control)
 - **Frontend:** HTML, CSS, JavaScript (with Bootstrap)
-- **Backend:** PHP, Node.js (Express.js)
-- **Database:** MySQL / MongoDB
+- **Backend:** PHP, Node.js 
+- **Database:** MySQL 
 - **Communication:** HTTP requests / MQTT (for IoT integration)
 
 ## 🔧 Installation & Setup
@@ -31,7 +30,7 @@ The **RFID Web-Based Hostel Gate Pass System** is designed to automate and secur
 2. Connect **Servo Motor** to ESP32 for gate operation.
 
 ### 2️⃣ Software Setup
-#### **Backend Setup (PHP + MySQL)**
+#### **Backend Setup (PHP + SQL)**
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/rfid-gatepass-system.git
@@ -46,10 +45,19 @@ Update `config.php` with your database credentials.
 2. Upload the **rfid_esp32.ino** file after configuring Wi-Fi and server details.
 
 ## 📸 Screenshots
-(Include some images of your project working)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Image</title>
+</head>
+<body>
+    <h2>Uploaded Image</h2>
+    <img src="Screenshot 2024-11-19 120439.png" alt="Uploaded Image" width="500">
+</body>
+</html>
 
-## 📜 License
-This project is open-source under the **MIT License**.
 
 ## 🚀 Future Enhancements
 - Mobile app integration.
