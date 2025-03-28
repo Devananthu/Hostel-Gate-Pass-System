@@ -26,9 +26,9 @@ This project aims to solve the challenges students face when obtaining a gate pa
 5. **Database Logging**: All requests and approvals are stored in the SQL database.
 
 ## 📌 Future Enhancements
-- ✅ SMS/Email notifications for request status updates.
-- ✅ Mobile app integration for easy access.
-- ✅ AI-based analysis for monitoring student movements.
+- SMS/Email notifications for request status updates.
+- Mobile app integration for easy access.
+- AI-based analysis for monitoring student movements.
 
 ## 📄 License
 This project is open-source and available for modification.
