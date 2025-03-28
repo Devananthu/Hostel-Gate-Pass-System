@@ -1,42 +1,36 @@
-# RFID Web-Based Hostel Gate Pass System
+# RFID-Based Hostel Gate Pass System
 
 ## 📌 Project Overview
-The **RFID Web-Based Hostel Gate Pass System** is designed to automate and secure the hostel entry and exit process using **RFID (Radio Frequency Identification) technology**. The system integrates **ESP32, RFID reader (RC522), and a web-based platform** to ensure seamless gate pass management.
+This project aims to solve the challenges students face when obtaining a gate pass from the hostel warden. It provides a web-based system where students can submit gate pass requests, specifying the reason and destination. The hostel warden can review and approve the requests, allowing students to exit the hostel using an RFID-based authentication system.
 
-## 🎯 Features
-- **RFID-based authentication** for students and hostel staff.
-- **Web dashboard** for real-time monitoring and managing gate passes.
-- **Automated logging** of entry and exit with timestamps.
-- **Admin panel** for student record management.
-- **Database integration** (MySQL) for storing pass details.
+## 🚀 Features
+- 🏠 **Student Portal**: Students can log in and request a gate pass with a reason and address.
+- 🎫 **Warden Dashboard**: Hostel wardens can review, approve, or reject gate pass requests.
+- 📡 **RFID Authentication**: Approved students can scan their RFID card to validate their exit.
+- 💡 **LED Indication**: LED signals for gate pass approval (Green - Approved, Red - Rejected).
+- 📊 **SQL Database**: Stores student requests, approvals, and RFID details.
+- 🔗 **ESP32 Integration**: Handles RFID authentication and communicates with the database.
 
-## 🛠️ Tech Stack
-- **Hardware:** ESP32, RFID RC522, LED, (for gate control)
-- **Frontend:** HTML, CSS, JavaScript (with Bootstrap)
-- **Backend:** PHP, Node.js 
-- **Database:** MySQL 
-- **Communication:** HTTP requests / MQTT (for IoT integration)
+## 🛠️ Technologies Used
+- **Hardware**: ESP32, RFID Reader (RC522), LED indicators
+- **Backend**: Python (Flask/Django)
+- **Database**: MySQL / SQLite
+- **Frontend**: HTML, CSS, JavaScript
+- **Communication**: Serial / WiFi (ESP32)
 
-## 🔧 Installation & Setup
-### 1️⃣ Hardware Setup
-Connect **RC522 RFID Reader** to ESP32:
-   - SDA → GPIO 5
-   - SCK → GPIO 18
-   - MOSI → GPIO 23
-   - MISO → GPIO 19
-   - RST → GPIO 22
-   - GND → GND
-   - 3.3V → 3.3V
-#### **ESP32 Code Upload**
-1. Install **Arduino IDE** and ESP32 board drivers.
-2. Upload the **rfid_esp32.ino** file after configuring Wi-Fi and server details.
+## 🔧 How It Works
+1. **Student Requests**: Students log in to the website and submit a gate pass request.
+2. **Warden Approval**: The hostel warden reviews the request and grants/rejects access.
+3. **RFID Authentication**: Upon approval, students scan their RFID card at the exit.
+4. **LED Indication**: A green LED signals approval, while a red LED indicates rejection.
+5. **Database Logging**: All requests and approvals are stored in the SQL database.
 
-## 🚀 Future Enhancements
-- Mobile app integration.
-- Face recognition-based authentication.
-- Cloud-based database support.
+## 📌 Future Enhancements
+- ✅ SMS/Email notifications for request status updates.
+- ✅ Mobile app integration for easy access.
+- ✅ AI-based analysis for monitoring student movements.
+
+## 📄 License
+This project is open-source and available for modification.
 
 ---
-### 📩 Need Help?
-Feel free to raise an issue or reach out for collaboration!
-
