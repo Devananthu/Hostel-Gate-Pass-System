@@ -31,10 +31,6 @@ Connect **RC522 RFID Reader** to ESP32:
 1. Install **Arduino IDE** and ESP32 board drivers.
 2. Upload the **rfid_esp32.ino** file after configuring Wi-Fi and server details.
 
-## 📸 Screenshots
-
-![Screenshot](images/Screenshot-2024-11-19.png)
-
 ## 🚀 Future Enhancements
 - Mobile app integration.
 - Face recognition-based authentication.
