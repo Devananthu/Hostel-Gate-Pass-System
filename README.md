@@ -28,36 +28,13 @@ The **RFID Web-Based Hostel Gate Pass System** is designed to automate and secur
    - GND → GND
    - 3.3V → 3.3V
 2. Connect **Servo Motor** to ESP32 for gate operation.
-
-### 2️⃣ Software Setup
-#### **Backend Setup (PHP + SQL)**
-```bash
-# Clone the repository
-git clone https://github.com/your-username/rfid-gatepass-system.git
-cd rfid-gatepass-system
-
-# Set up the database
-Import the `database.sql` file into MySQL.
-Update `config.php` with your database credentials.
-```
+3. 
 #### **ESP32 Code Upload**
 1. Install **Arduino IDE** and ESP32 board drivers.
 2. Upload the **rfid_esp32.ino** file after configuring Wi-Fi and server details.
 
 ## 📸 Screenshots
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Display Image</title>
-</head>
-<body>
-    <h2>Uploaded Image</h2>
-    <img src="Screenshot 2024-11-19 120439.png" alt="Uploaded Image" width="500">
-</body>
-</html>
-
+#![Screenshot]("C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2024-11-19 120439.png")
 
 ## 🚀 Future Enhancements
 - Mobile app integration.
