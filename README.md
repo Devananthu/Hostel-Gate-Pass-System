@@ -19,7 +19,7 @@ The **RFID Web-Based Hostel Gate Pass System** is designed to automate and secur
 
 ## 🔧 Installation & Setup
 ### 1️⃣ Hardware Setup
-1. Connect **RC522 RFID Reader** to ESP32:
+Connect **RC522 RFID Reader** to ESP32:
    - SDA → GPIO 5
    - SCK → GPIO 18
    - MOSI → GPIO 23
@@ -27,13 +27,13 @@ The **RFID Web-Based Hostel Gate Pass System** is designed to automate and secur
    - RST → GPIO 22
    - GND → GND
    - 3.3V → 3.3V
-2. Connect **Servo Motor** to ESP32 for gate operation.
-3. 
 #### **ESP32 Code Upload**
 1. Install **Arduino IDE** and ESP32 board drivers.
 2. Upload the **rfid_esp32.ino** file after configuring Wi-Fi and server details.
 
 ## 📸 Screenshots
+![Alt Text](C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2024-11-19 120439.png)
+
 #![Screenshot]("C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2024-11-19 120439.png")
 
 ## 🚀 Future Enhancements
