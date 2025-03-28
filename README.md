@@ -32,9 +32,8 @@ Connect **RC522 RFID Reader** to ESP32:
 2. Upload the **rfid_esp32.ino** file after configuring Wi-Fi and server details.
 
 ## 📸 Screenshots
-![Alt Text](C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2024-11-19 120439.png)
 
-#![Screenshot]("C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2024-11-19 120439.png")
+![Screenshot](images/Screenshot-2024-11-19.png)
 
 ## 🚀 Future Enhancements
 - Mobile app integration.
