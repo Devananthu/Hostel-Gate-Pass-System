@@ -1,7 +1,4 @@
 # RFID-Based Hostel Gate Pass System
-![RFID Hostel Gate Pass]("C:\Users\Dell\OneDrive\Pictures\Screenshots 1\Screenshot 2024-11-19 120439.png".png)
-
-
 
 ## 📌 Project Overview
 This project aims to solve the challenges students face when obtaining a gate pass from the hostel warden. It provides a web-based system where students can submit gate pass requests, specifying the reason and destination. The hostel warden can review and approve the requests, allowing students to exit the hostel using an RFID-based authentication system.
