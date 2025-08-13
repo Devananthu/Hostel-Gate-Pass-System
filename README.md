@@ -1,8 +1,6 @@
 # RFID-Based Hostel Gate Pass System
-<p align="center">
-  <img src="![Uploading Screenshot 2024-11-19 120439.png…]()
-" alt="RFID Hostel Gate Pass" width="500">
-</p>
+![RFID Hostel Gate Pass]("C:\Users\Dell\OneDrive\Pictures\Screenshots 1\Screenshot 2024-11-19 120439.png".png)
+
 
 
 ## 📌 Project Overview
