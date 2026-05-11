@@ -11,6 +11,19 @@ This project aims to solve the challenges students face when obtaining a gate pa
 - 📊 **SQL Database**: Stores student requests, approvals, and RFID details.
 - 🔗 **ESP32 Integration**: Handles RFID authentication and communicates with the database.
 
+## Login Page 
+![a](https://github.com/Devananthu/Hostel-Gate-Pass-System/blob/210e8618a2ed39735ce6bd148de1687e97897516/Hostel%20Gate%20pass%20Images/Login%20Page.png)
+
+## Student Request Page 
+![b](https://github.com/Devananthu/Hostel-Gate-Pass-System/blob/210e8618a2ed39735ce6bd148de1687e97897516/Hostel%20Gate%20pass%20Images/Student%20Request%20Page.png)
+
+## Gate Pass Approved Page
+![c](https://github.com/Devananthu/Hostel-Gate-Pass-System/blob/210e8618a2ed39735ce6bd148de1687e97897516/Hostel%20Gate%20pass%20Images/Student%20Request%20Page.png)
+
+## Hardware Components - Prototype 
+
+![d](https://github.com/Devananthu/Hostel-Gate-Pass-System/blob/79aa4b50a51a1ce43864a4ca3d647f938934318b/Hostel%20Gate%20pass%20Images/Hardware%20-%20Prototype.jpg)
+
 ## 🛠️ Technologies Used
 - **Hardware**: ESP32, RFID Reader (RC522), LED indicators
 - **Backend**: Python (Flask/Django)
@@ -30,7 +43,3 @@ This project aims to solve the challenges students face when obtaining a gate pa
 - Mobile app integration for easy access.
 - AI-based analysis for monitoring student movements.
 
-## 📄 License
-This project is open-source and available for modification.
-
----
